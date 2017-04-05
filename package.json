@@ -1,0 +1,24 @@
+{
+  "name": "Swish",
+  "version": "0.1.1",
+  "description": "Skeleton for an application using the MEAN stack.",
+  "main": "server.js",
+  "author": "group 5",
+  "dependencies": {
+    "bcrypt": "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "jwt-simple": "^0.3.1",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "passport": "^0.3.0",
+    "passport-jwt": "^1.2.1",
+    "request": "latest",
+    "yelp-api-v3": "^1.5.0",
+    "connect": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haquem1/COMP584.git"
+  }
+}

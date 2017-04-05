@@ -1,0 +1,19 @@
+{
+	"name"         : "mean-skeleton",
+	"version"      : "0.4.1",
+	"description"  : "Skeleton for an application using the MEAN stack.",
+	"main"         : "server.js",
+	"author"       : "group 5",
+	"dependencies" : {
+		"express"    : "latest",
+		"body-parser": "latest",
+		"morgan"		 : "latest",
+		"mongoose"	 : "latest",
+		"request"	 : "latest"
+	},
+	"repository"   :
+		{
+			"type" : "git",
+			"url" : "https://github.com/haquem1/COMP584.git"
+		}
+}
