@@ -1,24 +1,27 @@
 {
-  "name": "Swish",
-  "version": "0.1.1",
-  "description": "Skeleton for an application using the MEAN stack.",
+  "name": "COMP584-REST",
   "main": "server.js",
-  "author": "group 5",
+  "scripts": {
+    "start": "node -r dotenv/config ./bin/www",
+    "dev": "nodemon -r dotenv/config ./bin/www",
+    "deploy": "git push heroku master"
+  },
   "dependencies": {
-    "bcrypt": "latest",
-    "body-parser": "latest",
-    "express": "latest",
+    "angular2-cli": "^1.0.0-alpha.6",
+    "bcrypt": "^0.8.5",
+    "body-parser": "~1.9.2",
+    "dotenv": "^4.0.0",
+    "express": "~4.9.8",
+    "express-force-ssl": "^0.3.2",
     "jwt-simple": "^0.3.1",
-    "mongoose": "latest",
-    "morgan": "latest",
+    "mongoose": "~4.2.4",
+    "morgan": "~1.5.0",
     "passport": "^0.3.0",
     "passport-jwt": "^1.2.1",
-    "request": "latest",
-    "yelp-api-v3": "^1.5.0",
-    "connect": "latest"
+    "yelp-api-v3": "https://github.com/haquem1/yelp-api-v3.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/haquem1/COMP584.git"
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "nodemon": "^1.11.0"
   }
 }

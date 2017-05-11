@@ -1,0 +1,17 @@
+.swish-app-wrapper{
+  width:100%;
+  height:auto;
+  min-height:100vh;
+  overflow-x:hidden;  
+  background-color:#f5f5f5;
+}
+
+.mascot-message{
+  display:none;
+  position:fixed;
+  bottom:1%;
+  right:1%;
+  height:300px;
+  margin:0;
+  z-index:10;
+}

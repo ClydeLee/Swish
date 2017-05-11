@@ -1,4 +1,4 @@
 module.exports = {
-  'secret': 'gravytrain',
-  'database': 'mongodb://localhost/swish'
+  'secret': process.env.DB_SECRET,
+  'database': process.env.DB_HOST
 };
